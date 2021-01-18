@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <StackPane>
+         <children>
+            <TextField fx:id="IpTextField" alignment="CENTER" promptText="IP">
+               <font>
+                  <Font name="Times New Roman Italic" size="20.0" />
+               </font></TextField>
+         </children>
+         <VBox.margin>
+            <Insets left="20.0" right="20.0" top="30.0" />
+         </VBox.margin>
+      </StackPane>
+      <StackPane>
+         <children>
+            <TextField fx:id="PortTextField" alignment="CENTER" promptText="Port">
+               <StackPane.margin>
+                  <Insets />
+               </StackPane.margin>
+               <font>
+                  <Font name="Times New Roman Italic" size="20.0" />
+               </font>
+            </TextField>
+         </children>
+         <VBox.margin>
+            <Insets left="20.0" right="20.0" top="30.0" />
+         </VBox.margin>
+      </StackPane>
+      <StackPane>
+         <children>
+            <Button mnemonicParsing="false" onAction="#saveSettings" text="Сохранить и выйти" textAlignment="CENTER">
+               <StackPane.margin>
+                  <Insets />
+               </StackPane.margin>
+               <font>
+                  <Font name="Times New Roman Italic" size="20.0" />
+               </font>
+            </Button>
+         </children>
+         <VBox.margin>
+            <Insets bottom="50.0" left="30.0" right="30.0" top="30.0" />
+         </VBox.margin>
+      </StackPane>
+   </children>
+</VBox>
